@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="shortcut icon" href="./pics/favicon.ico" type="image/x-icon">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+   <!-- Meta Tags -->
+   <meta name="description" content="Pet Safe Catios specializes in custom-designed cat enclosures in Phoenix, Arizona. With over 18 years of experience, we create safe and enriching spaces for your feline friends. Free consultations available!">
+   <meta name="keywords" content="catios, custom cat enclosures, safe cat spaces, Phoenix Arizona catios, pet enclosures, cat safety, custom pet enclosures, free consultation catio design">
+   <meta name="author" content="Pet Safe Catios">
+   <link rel="canonical" href="https://petsafecatios.com">
+   <meta property="og:title" content="Pet Safe Catios - Custom Cat Enclosures in Phoenix, AZ">
+   <meta property="og:description" content="Expertly crafted catios designed to keep your pets safe and happy. We offer free consultations and unmatched safety for your feline companions.">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://petsafecatios.com">
+   <meta property="og:image" content="https://petsafecatios.com/pics/Cats_best_kennel">
+   
+   <title>Pet Safe Catios - Build Your Dream Catio</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Pet Safe Catios</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Build a Safe & Happy Space for Your Cat</h1>
+            <p>Custom-designed catios to keep your feline friends safe and entertained. Free consultations available!</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>With over 18 years of experience, Pet Safe Catios specializes in creating custom cat enclosures that blend safety, durability, and style. Our catios are designed to give your cats the freedom they crave while keeping them protected from predators and outdoor dangers.</p>
+           
+            <video class="center autom" width="320" height="240" autoplay loop muted>
+                <source src="./video/constructioncat.mp4" type="video/mp4">
+                <source src="./video/constructioncat.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="fas fa-paw"></i>
+                    <h3>Custom Catios</h3>
+                    <p>Tailored designs to fit your space and your cat's needs.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Installation</h3>
+                    <p>Professional installation to ensure safety and durability.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Free Consultation</h3>
+                    <p>Let's discuss your vision and create the perfect catio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-cards">
+                <div class="card">
+                    <p>"Our cats love their new catio! The team was professional and delivered exactly what we wanted."</p>
+                    <span>- Sarah T.</span>
+                </div>
+                <div class="card">
+                    <p>"Highly recommend Pet Safe Catios. They built a beautiful, sturdy enclosure for our furry friends."</p>
+                    <span>- Mike R.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Pet Safe Catios. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
