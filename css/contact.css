@@ -1,0 +1,15 @@
+/* Map Section */
+.map {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.map h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.map iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
