@@ -31,4 +31,18 @@
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    <!-- Negative Space Aviary Catio Page -->
+  <url>
+    <loc>https://www.petsafecatios.com/negative-space-aviary-catio</loc>
+    <lastmod>2025-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+    <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://www.petsafecatios.com/privacypolicy</loc>
+    <lastmod>2025-03-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

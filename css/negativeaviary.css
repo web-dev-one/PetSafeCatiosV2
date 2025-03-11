@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #4CAF50;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 5px;
+}
+.btn:hover {
+  background-color: #3d8b40;
+}
+.btn.btn-secondary {
+  background-color: #FFC107;
+}
+.btn.btn-secondary:hover {
+  background-color: #d39e00;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+
+.intro, .benefits, .how-it-works, .testimonials, .cta {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.benefit {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.testimonials blockquote {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+.testimonials blockquote p {
+  margin: 0;
+}
+.testimonials blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  color: #4CAF50;
+}
+
+.cta {
+  background-color: #4CAF50;
+  color: white;
+}
+.cta h2 {
+  color: white;
+}
+.cta .btn {
+  background-color: white;
+  color: #4CAF50;
+}
+.cta .btn:hover {
+  background-color: #e6e6e6;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=negativeaviary.css.map */

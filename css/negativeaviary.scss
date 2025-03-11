@@ -1,0 +1,151 @@
+// Variables
+$primary-color: #4CAF50;
+$secondary-color: #FFC107;
+$text-color: #333;
+$background-color: #f9f9f9;
+$container-width: 1200px;
+$mobile-breakpoint: 768px;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Global Styles
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
+.container {
+  width: 90%;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 5px;
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+  &.btn-secondary {
+    background-color: $secondary-color;
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+}
+
+// Header
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+}
+
+// Sections
+.intro, .benefits, .how-it-works, .testimonials, .cta {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  @media (max-width: $mobile-breakpoint) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.benefit {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.testimonials blockquote {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  p {
+    margin: 0;
+  }
+  cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: $primary-color;
+  }
+}
+
+.cta {
+  background-color: $primary-color;
+  color: white;
+  h2 {
+    color: white;
+  }
+  .btn {
+    background-color: white;
+    color: $primary-color;
+    &:hover {
+      background-color: darken(white, 10%);
+    }
+  }
+}
+
+// Footer
+.footer {
+  background-color: $text-color;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
